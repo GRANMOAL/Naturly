@@ -3,7 +3,8 @@ git commit -m "Ultimo Commit"
 git push
 go build main.go
 del main.zip
-tar.exe -czvf main.zip main
+7z a -tzip main.zip main
+
 
 
 
